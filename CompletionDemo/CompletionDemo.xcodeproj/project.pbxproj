@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F068566B7CC7E3BA3C73B2 /* libPods-CompletionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD7CFBA53734A31184AAA21 /* libPods-CompletionDemo.a */; };
+		069AAEDF2015988100F7E6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEDE2015988100F7E6DC /* AppDelegate.m */; };
+		069AAEE22015988100F7E6DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEE12015988100F7E6DC /* ViewController.m */; };
+		069AAEE52015988100F7E6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069AAEE32015988100F7E6DC /* Main.storyboard */; };
+		069AAEE72015988100F7E6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069AAEE62015988100F7E6DC /* Assets.xcassets */; };
+		069AAEEA2015988100F7E6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069AAEE82015988100F7E6DC /* LaunchScreen.storyboard */; };
+		069AAEED2015988100F7E6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEEC2015988100F7E6DC /* main.m */; };
+		069AAF042015996F00F7E6DC /* MathKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069AAEF42015996F00F7E6DC /* MathKeyboardView.xib */; };
+		069AAF052015996F00F7E6DC /* MTDisplay+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEF72015996F00F7E6DC /* MTDisplay+Editing.m */; };
+		069AAF062015996F00F7E6DC /* MTMathList+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEF92015996F00F7E6DC /* MTMathList+Editing.m */; };
+		069AAF072015996F00F7E6DC /* MTCaretView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEFA2015996F00F7E6DC /* MTCaretView.m */; };
+		069AAF082015996F00F7E6DC /* MTEditableMathLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEFC2015996F00F7E6DC /* MTEditableMathLabel.m */; };
+		069AAF092015996F00F7E6DC /* MathKeyboardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAEFF2015996F00F7E6DC /* MathKeyboardInputView.m */; };
+		069AAF0A2015996F00F7E6DC /* MathKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAF002015996F00F7E6DC /* MathKeyboardView.m */; };
+		069AAF0B2015996F00F7E6DC /* MathKeyboardInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069AAF012015996F00F7E6DC /* MathKeyboardInputView.xib */; };
+		069AAF0C2015996F00F7E6DC /* MathKeyboard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 069AAF022015996F00F7E6DC /* MathKeyboard.plist */; };
+		069AAF1020159BD700F7E6DC /* math.json in Resources */ = {isa = PBXBuildFile; fileRef = 069AAF0F20159BD700F7E6DC /* math.json */; };
+		069AAF132015C12700F7E6DC /* MathInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AAF122015C12700F7E6DC /* MathInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		069AAEDA2015988100F7E6DC /* CompletionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompletionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069AAEDD2015988100F7E6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		069AAEDE2015988100F7E6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		069AAEE02015988100F7E6DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		069AAEE12015988100F7E6DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		069AAEE42015988100F7E6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		069AAEE62015988100F7E6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		069AAEE92015988100F7E6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		069AAEEB2015988100F7E6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		069AAEEC2015988100F7E6DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		069AAEF42015996F00F7E6DC /* MathKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MathKeyboardView.xib; sourceTree = "<group>"; };
+		069AAEF52015996F00F7E6DC /* MathKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathKeyboardView.h; sourceTree = "<group>"; };
+		069AAEF72015996F00F7E6DC /* MTDisplay+Editing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTDisplay+Editing.m"; sourceTree = "<group>"; };
+		069AAEF82015996F00F7E6DC /* MTEditableMathLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEditableMathLabel.h; sourceTree = "<group>"; };
+		069AAEF92015996F00F7E6DC /* MTMathList+Editing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTMathList+Editing.m"; sourceTree = "<group>"; };
+		069AAEFA2015996F00F7E6DC /* MTCaretView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCaretView.m; sourceTree = "<group>"; };
+		069AAEFB2015996F00F7E6DC /* MTDisplay+Editing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTDisplay+Editing.h"; sourceTree = "<group>"; };
+		069AAEFC2015996F00F7E6DC /* MTEditableMathLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEditableMathLabel.m; sourceTree = "<group>"; };
+		069AAEFD2015996F00F7E6DC /* MTCaretView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCaretView.h; sourceTree = "<group>"; };
+		069AAEFE2015996F00F7E6DC /* MTMathList+Editing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTMathList+Editing.h"; sourceTree = "<group>"; };
+		069AAEFF2015996F00F7E6DC /* MathKeyboardInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathKeyboardInputView.m; sourceTree = "<group>"; };
+		069AAF002015996F00F7E6DC /* MathKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathKeyboardView.m; sourceTree = "<group>"; };
+		069AAF012015996F00F7E6DC /* MathKeyboardInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MathKeyboardInputView.xib; sourceTree = "<group>"; };
+		069AAF022015996F00F7E6DC /* MathKeyboard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MathKeyboard.plist; sourceTree = "<group>"; };
+		069AAF032015996F00F7E6DC /* MathKeyboardInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathKeyboardInputView.h; sourceTree = "<group>"; };
+		069AAF0E20159A7D00F7E6DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		069AAF0F20159BD700F7E6DC /* math.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = math.json; sourceTree = "<group>"; };
+		069AAF112015C12700F7E6DC /* MathInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathInfo.h; sourceTree = "<group>"; };
+		069AAF122015C12700F7E6DC /* MathInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathInfo.m; sourceTree = "<group>"; };
+		4CD7CFBA53734A31184AAA21 /* libPods-CompletionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CompletionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC6A044CFA2945508C047B5 /* Pods-CompletionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompletionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompletionDemo/Pods-CompletionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9299AD2CF21EE468A115F13A /* Pods-CompletionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompletionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompletionDemo/Pods-CompletionDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069AAED72015988100F7E6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F068566B7CC7E3BA3C73B2 /* libPods-CompletionDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069AAED12015988100F7E6DC = {
+			isa = PBXGroup;
+			children = (
+				069AAEDC2015988100F7E6DC /* CompletionDemo */,
+				069AAEDB2015988100F7E6DC /* Products */,
+				2E69A9B3B32FF3377AFB6B41 /* Pods */,
+				3B88A21816C4FEA64D500272 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		069AAEDB2015988100F7E6DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069AAEDA2015988100F7E6DC /* CompletionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069AAEDC2015988100F7E6DC /* CompletionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				069AAEDD2015988100F7E6DC /* AppDelegate.h */,
+				069AAEDE2015988100F7E6DC /* AppDelegate.m */,
+				069AAEE02015988100F7E6DC /* ViewController.h */,
+				069AAEE12015988100F7E6DC /* ViewController.m */,
+				069AAF112015C12700F7E6DC /* MathInfo.h */,
+				069AAF122015C12700F7E6DC /* MathInfo.m */,
+				069AAEE32015988100F7E6DC /* Main.storyboard */,
+				069AAF0F20159BD700F7E6DC /* math.json */,
+				069AAEF32015996F00F7E6DC /* MathKeyboard */,
+				069AAF0D20159A4700F7E6DC /* Supporting Files */,
+			);
+			path = CompletionDemo;
+			sourceTree = "<group>";
+		};
+		069AAEF32015996F00F7E6DC /* MathKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				069AAEF62015996F00F7E6DC /* MathEdit */,
+				069AAF032015996F00F7E6DC /* MathKeyboardInputView.h */,
+				069AAEFF2015996F00F7E6DC /* MathKeyboardInputView.m */,
+				069AAF012015996F00F7E6DC /* MathKeyboardInputView.xib */,
+				069AAEF52015996F00F7E6DC /* MathKeyboardView.h */,
+				069AAF002015996F00F7E6DC /* MathKeyboardView.m */,
+				069AAEF42015996F00F7E6DC /* MathKeyboardView.xib */,
+				069AAF022015996F00F7E6DC /* MathKeyboard.plist */,
+			);
+			path = MathKeyboard;
+			sourceTree = "<group>";
+		};
+		069AAEF62015996F00F7E6DC /* MathEdit */ = {
+			isa = PBXGroup;
+			children = (
+				069AAEFD2015996F00F7E6DC /* MTCaretView.h */,
+				069AAEFA2015996F00F7E6DC /* MTCaretView.m */,
+				069AAEFB2015996F00F7E6DC /* MTDisplay+Editing.h */,
+				069AAEF72015996F00F7E6DC /* MTDisplay+Editing.m */,
+				069AAEF82015996F00F7E6DC /* MTEditableMathLabel.h */,
+				069AAEFC2015996F00F7E6DC /* MTEditableMathLabel.m */,
+				069AAEFE2015996F00F7E6DC /* MTMathList+Editing.h */,
+				069AAEF92015996F00F7E6DC /* MTMathList+Editing.m */,
+			);
+			path = MathEdit;
+			sourceTree = "<group>";
+		};
+		069AAF0D20159A4700F7E6DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				069AAEE62015988100F7E6DC /* Assets.xcassets */,
+				069AAEE82015988100F7E6DC /* LaunchScreen.storyboard */,
+				069AAEEB2015988100F7E6DC /* Info.plist */,
+				069AAEEC2015988100F7E6DC /* main.m */,
+				069AAF0E20159A7D00F7E6DC /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E69A9B3B32FF3377AFB6B41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EC6A044CFA2945508C047B5 /* Pods-CompletionDemo.debug.xcconfig */,
+				9299AD2CF21EE468A115F13A /* Pods-CompletionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B88A21816C4FEA64D500272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD7CFBA53734A31184AAA21 /* libPods-CompletionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069AAED92015988100F7E6DC /* CompletionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069AAEF02015988100F7E6DC /* Build configuration list for PBXNativeTarget "CompletionDemo" */;
+			buildPhases = (
+				DBB84FC72B19ABF2B18C7D70 /* [CP] Check Pods Manifest.lock */,
+				069AAED62015988100F7E6DC /* Sources */,
+				069AAED72015988100F7E6DC /* Frameworks */,
+				069AAED82015988100F7E6DC /* Resources */,
+				4504A1C3C1F65ECE8B8F0C7D /* [CP] Embed Pods Frameworks */,
+				E61FF5C0ABDB2323EF098A2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompletionDemo;
+			productName = CompletionDemo;
+			productReference = 069AAEDA2015988100F7E6DC /* CompletionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069AAED22015988100F7E6DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DLZ;
+				TargetAttributes = {
+					069AAED92015988100F7E6DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 069AAED52015988100F7E6DC /* Build configuration list for PBXProject "CompletionDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 069AAED12015988100F7E6DC;
+			productRefGroup = 069AAEDB2015988100F7E6DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069AAED92015988100F7E6DC /* CompletionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069AAED82015988100F7E6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069AAF1020159BD700F7E6DC /* math.json in Resources */,
+				069AAEEA2015988100F7E6DC /* LaunchScreen.storyboard in Resources */,
+				069AAF0B2015996F00F7E6DC /* MathKeyboardInputView.xib in Resources */,
+				069AAEE72015988100F7E6DC /* Assets.xcassets in Resources */,
+				069AAEE52015988100F7E6DC /* Main.storyboard in Resources */,
+				069AAF042015996F00F7E6DC /* MathKeyboardView.xib in Resources */,
+				069AAF0C2015996F00F7E6DC /* MathKeyboard.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4504A1C3C1F65ECE8B8F0C7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompletionDemo/Pods-CompletionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB84FC72B19ABF2B18C7D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E61FF5C0ABDB2323EF098A2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompletionDemo/Pods-CompletionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069AAED62015988100F7E6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069AAF092015996F00F7E6DC /* MathKeyboardInputView.m in Sources */,
+				069AAF0A2015996F00F7E6DC /* MathKeyboardView.m in Sources */,
+				069AAF052015996F00F7E6DC /* MTDisplay+Editing.m in Sources */,
+				069AAEE22015988100F7E6DC /* ViewController.m in Sources */,
+				069AAEED2015988100F7E6DC /* main.m in Sources */,
+				069AAF072015996F00F7E6DC /* MTCaretView.m in Sources */,
+				069AAEDF2015988100F7E6DC /* AppDelegate.m in Sources */,
+				069AAF062015996F00F7E6DC /* MTMathList+Editing.m in Sources */,
+				069AAF082015996F00F7E6DC /* MTEditableMathLabel.m in Sources */,
+				069AAF132015C12700F7E6DC /* MathInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		069AAEE32015988100F7E6DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069AAEE42015988100F7E6DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		069AAEE82015988100F7E6DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069AAEE92015988100F7E6DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		069AAEEE2015988100F7E6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		069AAEEF2015988100F7E6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		069AAEF12015988100F7E6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC6A044CFA2945508C047B5 /* Pods-CompletionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CompletionDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CompletionDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLZ.CompletionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		069AAEF22015988100F7E6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9299AD2CF21EE468A115F13A /* Pods-CompletionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CompletionDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CompletionDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLZ.CompletionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069AAED52015988100F7E6DC /* Build configuration list for PBXProject "CompletionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069AAEEE2015988100F7E6DC /* Debug */,
+				069AAEEF2015988100F7E6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069AAEF02015988100F7E6DC /* Build configuration list for PBXNativeTarget "CompletionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069AAEF12015988100F7E6DC /* Debug */,
+				069AAEF22015988100F7E6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 069AAED22015988100F7E6DC /* Project object */;
+}

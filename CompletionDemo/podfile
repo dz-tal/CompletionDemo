@@ -1,0 +1,6 @@
+
+target 'CompletionDemo' do
+  pod 'YYKit', '~> 1.0.9', :inhibit_warnings => true
+  pod 'iosMath', '~> 0.9.4'
+end
+

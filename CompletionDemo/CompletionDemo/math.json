@@ -1,0 +1,40 @@
+{
+    "title":[
+        {
+            "value":"已知集合",
+            "type":"txt"
+        },
+        {
+            "value":"a,b \\in R",
+            "type":"lex"
+        },
+        {
+            "value":"，",
+            "type":"txt"
+        },
+        {
+            "value":"aa/27a/6ec/6ec815995b5156a51131cf731582.png#76*38",
+            "type":"tex"
+        },
+        {
+            "value":"则对于",
+            "type":"txt"
+        },
+        {
+            "value":"a-i",
+            "type":"lex"
+        },
+        {
+             "value":"对应的值是",
+             "type":"txt"
+        },
+        {
+            "value":" ______________ ．",
+            "type":"space"
+        },
+        {
+             "value":"aa/27a/6ec/6ec815995b5156a51131cf731582.png#76*38",
+             "type":"tex"
+        }
+    ]
+}

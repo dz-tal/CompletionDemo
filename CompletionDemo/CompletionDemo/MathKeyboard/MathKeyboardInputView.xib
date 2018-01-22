@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MathKeyboardInputView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBx-zP-Thl">
+                    <rect key="frame" x="5" y="5" width="365" height="60"/>
+                    <subviews>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-Bg-RrT">
+                            <rect key="frame" x="305" y="5" width="55" height="50"/>
+                            <color key="backgroundColor" red="0.85490196078431369" green="0.85490196078431369" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="5e5-pH-YeB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6y4-9K-HJg" customClass="MTEditableMathLabel">
+                            <rect key="frame" x="5" y="5" width="295" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="6y4-9K-HJg" firstAttribute="top" secondItem="rBx-zP-Thl" secondAttribute="top" constant="5" id="1QX-xR-KpI"/>
+                        <constraint firstItem="f0k-Bg-RrT" firstAttribute="leading" secondItem="6y4-9K-HJg" secondAttribute="trailing" constant="5" id="2Lk-bP-vLi"/>
+                        <constraint firstItem="6y4-9K-HJg" firstAttribute="leading" secondItem="rBx-zP-Thl" secondAttribute="leading" constant="5" id="4Xn-CI-h4o"/>
+                        <constraint firstAttribute="height" constant="60" id="8b4-zG-XwT"/>
+                        <constraint firstAttribute="bottom" secondItem="6y4-9K-HJg" secondAttribute="bottom" constant="5" id="M0L-cr-c9h"/>
+                        <constraint firstAttribute="bottom" secondItem="f0k-Bg-RrT" secondAttribute="bottom" constant="5" id="kGA-8G-DHg"/>
+                        <constraint firstItem="f0k-Bg-RrT" firstAttribute="top" secondItem="rBx-zP-Thl" secondAttribute="top" constant="5" id="pEN-ii-bjb"/>
+                        <constraint firstAttribute="trailing" secondItem="f0k-Bg-RrT" secondAttribute="trailing" constant="5" id="qpZ-wP-67k"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rBx-zP-Thl" secondAttribute="trailing" constant="5" id="5Pj-bO-qS3"/>
+                <constraint firstItem="rBx-zP-Thl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="rwH-Uh-cCM"/>
+                <constraint firstItem="rBx-zP-Thl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="ysC-RY-ziT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="confirmBtn" destination="f0k-Bg-RrT" id="fGi-yd-1fn"/>
+                <outlet property="editLabel" destination="6y4-9K-HJg" id="CPE-rv-dv1"/>
+                <outlet property="inputBgView" destination="rBx-zP-Thl" id="BH4-0a-XRe"/>
+            </connections>
+            <point key="canvasLocation" x="-153" y="28"/>
+        </view>
+    </objects>
+</document>
