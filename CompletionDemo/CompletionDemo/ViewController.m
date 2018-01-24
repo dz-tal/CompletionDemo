@@ -75,6 +75,8 @@ static const CGFloat font_size = 15;
     label.size = [label sizeThatFits:label.size];
     
     NSMutableAttributedString *attachText = [NSMutableAttributedString attachmentStringWithContent:label contentMode:UIViewContentModeScaleAspectFill attachmentSize:label.size alignToFont:[UIFont systemFontOfSize:font_size] alignment:YYTextVerticalAlignmentCenter];
+    [attachText setUnderlineStyle:NSUnderlineStyleSingle range:NSMakeRange(0, attachText.length)];
+    attachText.color = [UIColor colorWithHexString:@"333333"];
     attachText.lineSpacing = line_space;
     
     NSMutableAttributedString *attribute = [[NSMutableAttributedString alloc]initWithAttributedString:self.label.textLayout.text];
